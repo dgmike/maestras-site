@@ -1,16 +1,17 @@
 const Home = () => {
   return (<div>
 <Logo/>
+<Logo inverted/>
 <Botao/>
         </div>)
-
-  
-
 };
 const Botao = () => {
   return <button>compre</button>
 };
-const Logo = () => {
+const Logo = ({ inverted }) => {
+  if (inverted) {
+    return <img src="https://www.maestras.com.br/assets/img/logo-negativo.png" />
+  }
   return <img src="https://www.maestras.com.br/assets/img/logo.png" />
 }
 export default Home
