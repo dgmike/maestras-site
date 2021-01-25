@@ -1,11 +1,9 @@
 const Home = () => {
   return (<div>
 <Logo/>
+<Logo inverted/>
 <Botao/>
         </div>)
-
-  
-
 };
 const Botao = () => {
   return <button>compre</button>
