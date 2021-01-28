@@ -1,4 +1,5 @@
 import Logo from '../components/logo';
+import Menu from '../components/menu';
 
 const Home = () => {
   return (<div>
@@ -16,16 +17,6 @@ const Botao = () => {
 
 
 
-function Menu(){
-  return(
-    <ul>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Sobre</a></li>
 
-    </ul>
-  )
-};
 
 export default Home
